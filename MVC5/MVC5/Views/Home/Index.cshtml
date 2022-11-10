@@ -1,0 +1,43 @@
+﻿@model MVC5.Models.Pessoa
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>Index</h2>
+
+<h2>Praticando ASP MVC</h2>
+<p>Development by - Lucas</p>
+
+<br />
+
+<h3>View Tipada</h3>
+<br />
+
+<form action="Lista" method="post">
+    <fieldset>
+        <legend>Informações do Usuário</legend>
+
+        <div>
+            <label for="PessoaId">Código</label>
+        </div>
+        <div>
+            <input type="number" name="PessoaId" value="@Model.PessoaId" />
+        </div>
+
+        <div>
+            <label for="Nome">Nome</label>
+        </div>
+        <div>
+            <input type="text" name="Nome" value="@Model.Nome" />
+        </div>
+        <div>
+            <label for="Idade">Idade</label>
+        </div>
+        <div>
+            <input type="number" name="Idade" value="@Model.Idade" />
+        </div><br />
+
+        <p><button>Enviar dados</button></p>
+    </fieldset>
+</form>

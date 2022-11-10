@@ -1,0 +1,31 @@
+﻿@model MVC5.Models.Pessoa
+
+@{
+    ViewBag.Title = "Lista";
+}
+
+<h2>Lista</h2>
+
+<div>
+    <b>ID do usuário</b>
+</div>
+<div>
+    @Model.PessoaId
+</div>
+
+<div>
+    <b>Nome</b>
+</div>
+<div>
+    @Model.Nome
+</div>
+
+<div>
+    <b>Idade</b>
+</div>
+<div>
+    @Model.Idade
+</div>
+<br />
+
+<a href="~/">Voltar</a>
