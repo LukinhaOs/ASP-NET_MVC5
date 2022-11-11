@@ -1,0 +1,60 @@
+﻿@model MVC5.Models.Usuario
+
+@{
+    ViewBag.Title = "Resultado";
+}
+
+<h2>Resultado</h2>
+
+<fieldset>
+    <legend>Dados</legend>
+    <div class="editor_label">
+        @Html.DisplayNameFor(model => model.Nome)
+    </div>
+    <div class="editor_field">
+        @Html.DisplayFor(model => model.Nome)
+    </div>
+    <br />
+
+    <div class="editor_label">
+        @Html.DisplayNameFor(model => model.Info)
+    </div>
+    <div class="editor_field">
+        @Html.DisplayFor(model => model.Info)
+    </div>
+    <br />
+
+    <div class="editor_label">
+        @Html.DisplayNameFor(model => model.Login)
+    </div>
+    <div class="editor_field">
+        @Html.DisplayFor(model => model.Login)
+    </div>
+    <br />
+
+    <div class="editor_label">
+        @Html.DisplayNameFor(model => model.Email)
+    </div>
+    <div class="editor_field">
+        @Html.DisplayFor(model => model.Email)
+    </div>
+    <br />
+
+    <div class="editor_label">
+        @Html.DisplayNameFor(model => model.Senha)
+    </div>
+    <div class="editor_field">
+        @Html.DisplayFor(model => model.Senha)
+    </div>
+    <br />
+
+    <div class="editor_label">
+        @Html.DisplayNameFor(model => model.ConfirmaSenha)
+    </div>
+    <div class="editor_field">
+        @Html.DisplayFor(model => model.ConfirmaSenha)
+    </div>
+    <br />
+
+    <p>@Html.ActionLink("Voltar", "Usuario")</p>
+</fieldset>
