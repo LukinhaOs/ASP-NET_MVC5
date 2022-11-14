@@ -1,0 +1,11 @@
+﻿@model MVC5_Parte_2.Models.Noticia
+
+@{
+    ViewBag.Title = "MostraNoticia";
+}
+
+<h2>@Model.Titulo</h2>
+
+<em>@Model.Data - @Html.ActionLink(@Model.Categoria, "MostraCategoria", "Home", new { @categoria = Model.Categoria }, null)</em>
+
+<div>@Model.Conteudo</div>
