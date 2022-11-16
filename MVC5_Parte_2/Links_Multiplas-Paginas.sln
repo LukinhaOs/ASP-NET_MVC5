@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33027.164
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC5_Parte_2", "MVC5_Parte_2\MVC5_Parte_2.csproj", "{26FCD507-4CEF-4136-B37D-1A105332C5EC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Links_Multiplas-Paginas", "MVC5_Parte_2\Links_Multiplas-Paginas.csproj", "{26FCD507-4CEF-4136-B37D-1A105332C5EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
